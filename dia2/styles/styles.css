@@ -1,0 +1,10 @@
+#hojaDeVida{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#hojaDeVida td, #hojaDeVida th{
+    border: 1px solid #d34343;
+    padding: 8px;
+    }
