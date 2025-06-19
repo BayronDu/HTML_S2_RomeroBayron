@@ -23,5 +23,7 @@
 .info{
     text-align: center;
     font-weight: bold;
-
+}
+#control{
+    text-align: justify;
 }
