@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-
-    <form name="userdata" method="post" action="">
+    <h1 id="titulo">Formulario de registro</h1>
+    <form id="formReg" name="userdata" method="post" action="">
         <hr>
+        <!--Nombre -->
         <label for="fnombre">Nombre: </label>
         <input type="text" maxlength="50" name="fnombre"><br><br>
+        <!-- Apellidos -->
         <label for="fapellidos">Apellidos: </label>
         <input type="text" maxlength="50" name="fapellidos"><br>
         <hr>
+        <!--Sexo -->
         <p>Por favor seleccione su sexo:</p>
         <input type="radio" name="fsexo"> Masculino
         <input type="radio" name="fsexo"> Femenino <br>
         <hr>
+        <!--Email -->
         <label for="femail">Email</label>
         <input type="email" name="femail"><br><br>
+        <!--población -->
         <label for="Ciudades">Población</label>
-        <select list="Ciudades" name="Ciudades" id="Ciudades">
+        <select name="Ciudades" id="Ciudades">
         <datalist id="Ciudades">
             <option value="Bucaramanga">Bucaramanga</option>
             <option value="Girón">Girón</option>
             <option value="Piedecuesta">Piedecuesta</option>
         </datalist>
         </select><br><br>
+        <!--Descripción -->
         <label for="description">DESCRIPCIÓN: </label><br>
         <textarea name="description" id="description"></textarea><br><br>
         <input type="checkbox" checked>Deseo recibir información sobre novedades y ofertas. <br><br>
         <input type="checkbox" checked> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos. <br><hr>
-        <input type="submit" value="BOTÓN DE ENVÍO"><br><br>
+        <!--Boton de envío -->
+
+        <input id="submit" type="submit" value="BOTÓN DE ENVÍO"><br><br>
 
     </form>
 
