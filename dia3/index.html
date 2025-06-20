@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+
+    <form name="userdata" method="post" action="">
+        <hr>
+        <label for="fnombre">Nombre: </label>
+        <input type="text" maxlength="50" name="fnombre"><br><br>
+        <label for="fapellidos">Apellidos: </label>
+        <input type="text" maxlength="50" name="fapellidos"><br>
+        <hr>
+        <p>Por favor seleccione su sexo:</p>
+        <input type="radio" name="fsexo"> Masculino
+        <input type="radio" name="fsexo"> Femenino <br>
+        <hr>
+        <label for="femail">Email</label>
+        <input type="email" name="femail"><br><br>
+        <label for="Ciudades">Población</label>
+        <select list="Ciudades" name="Ciudades" id="Ciudades">
+        <datalist id="Ciudades">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Girón">Girón</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </datalist>
+        </select><br><br>
+        <label for="description">DESCRIPCIÓN: </label><br>
+        <textarea name="description" id="description"></textarea><br><br>
+        <input type="checkbox" checked>Deseo recibir información sobre novedades y ofertas. <br><br>
+        <input type="checkbox" checked> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos. <br><hr>
+        <input type="submit" value="BOTÓN DE ENVÍO"><br><br>
+
+    </form>
+
+
+</body>
+</html>
