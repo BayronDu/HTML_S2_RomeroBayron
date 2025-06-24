@@ -1,0 +1,249 @@
+.contenedor{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 440%;
+}
+.fondo1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.lupa{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    z-index: 2;
+}
+.login{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 140px;
+    padding: 8PX;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    z-index: 2;
+}
+.prime{
+    position: absolute;
+    top: 107px;
+    left: 550px;
+    width: 370px;
+    opacity: 1;
+    z-index: 2;
+}
+.favorite{
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    width: 1151px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color:#FFFFFF;
+    z-index: 2;
+}
+.parrafo{
+    position: absolute;
+    top: 420px;
+    left: 440px;
+    height: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color:#FFFFFF;
+    z-index: 2;
+}
+.login2{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    width: 370px;
+    height: 44px;
+    z-index: 2;
+    padding: 8PX;
+    background-color: #FFFFFF;
+    border-radius: 70px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.cont2{
+    position: absolute;
+    top: 800px;
+    left: 64px;
+    width: 92%;
+    height: 60%;
+    background-color: #00A8E1;
+    border-radius: 60px;
+    }
+.liveCont{
+    position: absolute;
+    font-size: 40px;
+    left: 290px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.tv{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 100px;
+    left: 41%;
+}
+.HD{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color:#FFFFFF;
+}
+.cont3{
+    position: absolute;
+    top: 1260px;
+    left: 64px;
+    width: 92%;
+    height: 70%;
+    background-color: #00A8E1;
+    border-radius: 60px;
+    }
+.dontLike{
+    position: absolute;
+    font-size: 40px;
+    left: 130px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.contImg{
+    position: absolute;
+    top: 130px;
+    left: 45%;
+}
+.contImg, img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 180px;
+    height: 220px;
+}
+.find{
+    position: absolute;
+    font-size: 30px;
+    top: 350px;
+    left: 15%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.cont4{
+    position: absolute;
+    top: 1800px;
+    left: 64px;
+    width: 92%;
+    height: 45%;
+    background-color: #00A8E1;
+    border-radius: 60px;
+    }
+.cancel{
+    position: absolute;
+    font-size: 40px;
+    left: 30%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.cancelar{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 100px;
+    left: 45%;
+}
+.ifYou{
+    position: absolute;
+    font-size: 30px;
+    top: 190px;
+    left: 15%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.cont5 .compatible{
+    position: absolute;
+    top: 2240px;
+    left: 250px;
+    width: 1118px;
+    height: 125px;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.range{
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.flecha1{
+    position: absolute;
+    top: 520px;
+    height: 20px;
+    width: auto;
+}
+.iPhone{
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    height: 250px;
+    width: auto;
+}
+.mac{
+    position: absolute;
+    top: 300px;
+    height: 450px;
+    width: auto;
+    left: 300px;
+}
+.pc{
+    position: absolute;
+    top: 420px;
+    left: 780px;
+    height: 250px;
+    width: auto;
+}
+.flecha2{
+    position: absolute;
+    top: 520px;
+    left: 1100px;
+    height: 20px;
+    width: auto;
+    transform: rotate(180deg);    
+}
+.foot{
+    position: absolute;
+    display: flex;
+    gap: 100px;
+    left: 300px;
+    top: 3100px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
