@@ -1,6 +1,7 @@
 .contenedor{
     display: block;
-    unicode-bidi: isolate;
+    width: 1080px;
+    height: 1920px;
 }
 
 .fondo{
@@ -12,22 +13,22 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index:1;
 }
 
 .lupa{
     position: absolute;
-    top: 37px;
-    left: 63px;
-    width: 20px;
-    height: 20px;
+    top: 3.6%;
+    left: 3.3%;
+    height: 36px;
+    width: auto;
     display: block;
     z-index: 2;
 }
 .login{
     position: absolute;
-    top: 30px;
-    right: 15px;
+    top: 3.6%;
+    right: 1.5%;
     width: 140px;
     padding: 8PX;
     background-color: #FFFFFF;
@@ -38,17 +39,19 @@
 }
 .prime{
     position: absolute;
-    top: 107px;
-    left: 550px;
-    width: 370px;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
     opacity: 1;
     z-index: 2;
 }
 .favorite{
     position: absolute;
-    top: 320px;
-    left: 400px;
+    top: 517px;
+    left: 589px;
     width: 1151px;
+    height: 60px;
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     color:#FFFFFF;
@@ -56,9 +59,10 @@
 }
 .parrafo{
     position: absolute;
-    top: 420px;
-    left: 440px;
-    height: 50px;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -67,10 +71,10 @@
 }
 .login2{
     position: absolute;
-    top: 550px;
-    left: 550px;
-    width: 370px;
-    height: 44px;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
     z-index: 2;
     padding: 8PX;
     background-color: #FFFFFF;
@@ -80,12 +84,13 @@
 }
 .cont2{
     position: absolute;
-    top: 800px;
+    top: 100%;
     left: 64px;
-    width: 92%;
-    height: 60%;
+    width: 94%;
+    height: 567px;
     background-color: #00A8E1;
     border-radius: 60px;
+    display: block;
     }
 .liveCont{
     position: absolute;
@@ -113,12 +118,13 @@
 }
 .cont3{
     position: absolute;
-    top: 1260px;
+    top: 1817px;
     left: 64px;
-    width: 92%;
-    height: 70%;
+    width: 94%;
+    height: 724px;
     background-color: #00A8E1;
     border-radius: 60px;
+    display: block;
     }
 .dontLike{
     position: absolute;
@@ -143,18 +149,20 @@
 .find{
     position: absolute;
     font-size: 30px;
-    top: 350px;
-    left: 15%;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 .cont4{
     position: absolute;
-    top: 1800px;
+    top: 2590px;
     left: 64px;
-    width: 92%;
-    height: 45%;
+    width: 94%;
+    height: 567px;
     background-color: #00A8E1;
     border-radius: 60px;
     }
@@ -176,17 +184,19 @@
 .ifYou{
     position: absolute;
     font-size: 30px;
-    top: 190px;
-    left: 15%;
+    top: 1773px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.cont5 .compatible{
+.cont5 . {
     position: absolute;
-    top: 2240px;
-    left: 250px;
-    width: 1118px;
+    top: 3127px;
+    left: 418px;
+    width: 94%;
     height: 125px;
     font-size: 70px;
     color: #FFFFFF;
