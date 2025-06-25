@@ -7,7 +7,7 @@
 .fondo{
     position: absolute;
     width: 100%;
-    height: 440%;
+    height: 390%;
 }
 .fondo1{
     position: absolute;
@@ -87,7 +87,7 @@
     top: 110%;
     left: 64px;
     width: 94%;
-    height:40%;
+    height:45%;
     background-color: #00A8E1;
     border-radius: 60px;
     display: block;
@@ -95,14 +95,14 @@
 .liveCont{
     position: absolute;
     font-size: 60px;
-    left: 20%;
+    left: 300px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 .tv{
     position: absolute;
-    width: 150px;
+    width: 200px;
     height: auto;
     top: 100px;
     left: 41%;
@@ -110,10 +110,10 @@
 .HD{
     position: absolute;
     top: 300px;
-    left: 20%;
+    left: 250px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     color:#FFFFFF;
 }
 .cont3{
@@ -128,15 +128,16 @@
     }
 .dontLike{
     position: absolute;
-    font-size: 40px;
-    left: 130px;
+    font-size: 50px;
+    top: 20px;
+    left: 250px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 .contImg{
     position: absolute;
-    top: 130px;
+    top: 230px;
     left: 45%;
 }
 .contImg, img{
@@ -148,9 +149,9 @@
 }
 .find{
     position: absolute;
-    font-size: 30px;
-    top: 2286px;
-    left: 207px;
+    font-size: 40px;
+    top: 500px;
+    left: 150px;
     width: 1492px;
     height: 110px;
     color: #FFFFFF;
@@ -168,36 +169,41 @@
     }
 .cancel{
     position: absolute;
-    font-size: 40px;
-    left: 30%;
+    font-size: 60px;
+    left: 480px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 .cancelar{
     position: absolute;
-    width: 100px;
+    width: 150px;
     height: auto;
-    top: 100px;
+    top: 200px;
     left: 45%;
 }
 .ifYou{
     position: absolute;
-    font-size: 30px;
-    top: 1773px;
-    left: 135px;
+    font-size: 40px;
+    top: 400px;
+    left: 100px;
     width: 1664px;
     height: 60px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.cont5 . {
+.cont5 {
     position: absolute;
-    top: 3127px;
+    top: 3250px;
     left: 418px;
     width: 94%;
     height: 125px;
+    
+}
+.compatible{
+    position: absolute;
+    left: 200px;
     font-size: 70px;
     color: #FFFFFF;
     text-align: center;
@@ -206,6 +212,7 @@
 .range{
     position: absolute;
     top: 150px;
+    left: 40px;
     font-size: 30px;
     color: #FFFFFF;
     text-align: center;
@@ -250,9 +257,9 @@
     position: absolute;
     display: flex;
     gap: 100px;
-    left: 300px;
-    top: 3100px;
-    font-size: 20px;
+    left: 450px;
+    top: 4100px;
+    font-size: 25px;
     color: #FFFFFF;
     text-align: center;
     font-family: "Roboto", sans-serif;
