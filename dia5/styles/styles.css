@@ -139,12 +139,19 @@ body {
     height: 14px;
     transform: rotate(180deg); /*gira la imagen 180°*/
 }
-.imgTarjeta{
+.imgTarjeta{ /*tarjeta metrolinea de la pagina1*/
     position: absolute;
     top: 322px;
     left: 227px;
     width: 884px;
     height: 497px;
+}
+.imgTarjeta2{ /*tarjeta metrolinea de la pagina2*/
+    position: absolute;
+    top: 322px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
 }
 .contBajo{
     position: absolute;
@@ -191,4 +198,39 @@ body {
     background-color: transparent;
     border: 0px;
     opacity: 70%;
+}
+.contenedor2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /*da espacio entre objetos de la colunma*/
+    top: 650px;
+    left: 400px;
+}
+.contenedor2 h1{
+    top: 650px;
+    left: 401px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.contenedor2 h6{
+    top: 677px;
+    left: 583px;
+    font-size: 27px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.contenedor2 button{
+    position: absolute;
+    padding: 8px;
+    width: 288px;
+    top: 200px;
+    left: 220px;
+    border-radius: 50px;
+    font-size: 27px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
