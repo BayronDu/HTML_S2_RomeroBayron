@@ -41,11 +41,19 @@ body {
     background-color: transparent;
     border: 0px;
 }
-.linea{
+.linea{ /*Línea debajo de "Comprar Tarjeta"*/
     position: absolute;
     top: 303px;
     left: 841px;
     width: 146px;
+    height: 2px;
+    background-color: black;
+}
+.linea2{ /*Línea debajo de "Ver Saldo"*/
+    position: absolute;
+    top: 303px;
+    left: 1096px;
+    width: 84px;
     height: 2px;
     background-color: black;
 }
@@ -104,7 +112,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px; /*da espacio entre objetos de la colunma*/
     top: 307px;
     left: 13px;
     width: 84px;
@@ -115,7 +123,7 @@ body {
     font-size: 20px;
     background-color: transparent;
     border: 0px;
-    opacity: 70%;
+    opacity: 35%;
 }
 .medio{
     color: #FFFFFF;
@@ -129,5 +137,58 @@ body {
     left: 43px;
     width: 24px;
     height: 14px;
-    transform: rotate(180deg);
+    transform: rotate(180deg); /*gira la imagen 180°*/
+}
+.imgTarjeta{
+    position: absolute;
+    top: 322px;
+    left: 227px;
+    width: 884px;
+    height: 497px;
+}
+.contBajo{
+    position: absolute;
+    top: 861px;
+    left: 158px;
+}
+.saldo1{
+    width: 716px;
+    height: 55px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.saldo2{
+    width: 139px;
+    height: 37px;
+    font-size: 27px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.cuadroCompra{
+    background-color: #D5FF43;
+    border-radius: 10px;
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+}
+.cuadroCompra img{
+    position: relative;
+    top: 29px;
+    left: 15px;
+    width: 129px;
+    height: 29px;
+}
+.cuadroCompra button{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0px;
+    opacity: 70%;
 }
