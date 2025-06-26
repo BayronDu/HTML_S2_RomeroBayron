@@ -1,23 +1,25 @@
-body{
+body {
     margin: 0;
 }
-.contenedor{
+
+.contenedor {
     width: 1080px;
     height: 1920px;
 }
 
-.fondo{
+.fondo {
     position: absolute;
     width: 100%;
     height: 390%;
 }
-.fondo1{
+
+.fondo1 {
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.lupa{
+.lupa {
     position: absolute;
     top: 3.6%;
     left: 3.3%;
@@ -25,7 +27,8 @@ body{
     width: auto;
     display: block;
 }
-.login{
+
+.login {
     position: absolute;
     top: 3.6%;
     right: 1.5%;
@@ -36,7 +39,8 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
 }
-.prime{
+
+.prime {
     position: absolute;
     top: 227px;
     left: 682px;
@@ -44,7 +48,8 @@ body{
     height: 313px;
     opacity: 1;
 }
-.favorite{
+
+.favorite {
     position: absolute;
     top: 517px;
     left: 589px;
@@ -52,9 +57,10 @@ body{
     height: 60px;
     font-family: "Roboto", sans-serif;
     font-size: 40px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.parrafo{
+
+.parrafo {
     position: absolute;
     top: 608px;
     left: 380px;
@@ -63,9 +69,10 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.login2{
+
+.login2 {
     position: absolute;
     top: 755px;
     left: 730px;
@@ -77,17 +84,19 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
 }
-.cont2{
+
+.cont2 {
     position: absolute;
     top: 110%;
     left: 64px;
     width: 94%;
-    height:45%;
+    height: 45%;
     background-color: #00A8E1;
     border-radius: 60px;
     display: block;
-    }
-.liveCont{
+}
+
+.liveCont {
     position: absolute;
     font-size: 60px;
     left: 300px;
@@ -95,23 +104,26 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.tv{
+
+.tv {
     position: absolute;
     width: 200px;
     height: auto;
     top: 100px;
     left: 41%;
 }
-.HD{
+
+.HD {
     position: absolute;
     top: 300px;
     left: 250px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 40px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.cont3{
+
+.cont3 {
     position: absolute;
     top: 1817px;
     left: 64px;
@@ -120,8 +132,9 @@ body{
     background-color: #00A8E1;
     border-radius: 60px;
     display: block;
-    }
-.dontLike{
+}
+
+.dontLike {
     position: absolute;
     font-size: 50px;
     top: 20px;
@@ -130,19 +143,23 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.contImg{
+
+.contImg {
     position: absolute;
     top: 230px;
     left: 45%;
 }
-.contImg, img{
+
+.contImg,
+img {
     display: flex;
     justify-content: center;
     gap: 30px;
     width: 180px;
     height: 220px;
 }
-.find{
+
+.find {
     position: absolute;
     font-size: 40px;
     top: 500px;
@@ -153,7 +170,8 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.cont4{
+
+.cont4 {
     position: absolute;
     top: 2590px;
     left: 64px;
@@ -161,8 +179,9 @@ body{
     height: 567px;
     background-color: #00A8E1;
     border-radius: 60px;
-    }
-.cancel{
+}
+
+.cancel {
     position: absolute;
     font-size: 60px;
     left: 480px;
@@ -170,14 +189,16 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.cancelar{
+
+.cancelar {
     position: absolute;
     width: 150px;
     height: auto;
     top: 200px;
     left: 45%;
 }
-.ifYou{
+
+.ifYou {
     position: absolute;
     font-size: 40px;
     top: 400px;
@@ -188,15 +209,17 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
+
 .cont5 {
     position: absolute;
     top: 3250px;
     left: 418px;
     width: 74%;
     height: 125px;
-    
+
 }
-.compatible{
+
+.compatible {
     position: absolute;
     left: 200px;
     font-size: 70px;
@@ -204,7 +227,8 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.range{
+
+.range {
     position: absolute;
     top: 150px;
     left: 40px;
@@ -213,42 +237,48 @@ body{
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.flecha1{
+
+.flecha1 {
     position: absolute;
     top: 520px;
     height: 20px;
     width: auto;
 }
-.iPhone{
+
+.iPhone {
     position: absolute;
     top: 420px;
     left: 20px;
     height: 250px;
     width: auto;
 }
-.mac{
+
+.mac {
     position: absolute;
     top: 300px;
     height: 450px;
     width: auto;
     left: 300px;
 }
-.pc{
+
+.pc {
     position: absolute;
     top: 420px;
     left: 780px;
     height: 250px;
     width: auto;
 }
-.flecha2{
+
+.flecha2 {
     position: absolute;
     top: 520px;
     left: 1100px;
     height: 20px;
     width: auto;
-    transform: rotate(180deg);    
+    transform: rotate(180deg);
 }
-.foot{
+
+.foot {
     position: absolute;
     display: flex;
     gap: 100px;

@@ -1,0 +1,24 @@
+div {
+    background-color: red;
+}
+
+div h1 {
+    color: white;
+}
+
+div h1#tarde {
+    color: blue;
+}
+
+button {
+    background-color: aqua;
+}
+
+button[disabled] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[placeholder="John Doe"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
