@@ -1,0 +1,47 @@
+@font-face {
+    font-family: nombre;
+    src: url(../fonts/Michroma-Regular.ttf);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url(../Images/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo{
+    
+}
+
+.menu {
+    background: linear-gradient(rgb(44, 41, 41)10%, rgba(42, 36, 36, 0.671));
+    font-family: nombre;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 30px;
+    width: 100vw;
+    margin: 0;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.btns {
+    display: flex;
+    gap: 5vw;
+
+}
+
+.btns button {
+    background: none;
+    border: 0;
+    font-size: 1vw;
+    font-family: nombre;
+    width: 4.5vw;
+    color: white;
+}
