@@ -16,6 +16,9 @@ body {
     color: white;
 }
 
+button{
+    cursor: pointer;
+}
 .menu {
     background: linear-gradient(rgb(44, 41, 41)10%, rgba(42, 36, 36, 0.671));
     font-size: 1.2vw;
@@ -223,4 +226,21 @@ body {
     margin-top: 15vh;
     width: 70vh;
     border-color: rgba(239, 166, 31, 0.698);
+}
+.btnSubir{
+    width: 4vw;
+    height: 5vh;background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    transform:rotate(-90deg);
+}
+.flecha{
+    display: flex;
+    margin-right: 10vh;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.btnSubir img{
+    width: 6vw;
+    align-items: center;
 }
