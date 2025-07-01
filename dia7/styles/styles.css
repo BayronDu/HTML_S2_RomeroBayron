@@ -3,18 +3,14 @@
     src: url(../fonts/Michroma-Regular.ttf);
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     margin: 0;
     background-image: url(../Images/fondo.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100vw;
     background-position: center;
-}
-
-.fondo{
-    
 }
 
 .menu {
@@ -34,6 +30,10 @@ body{
 .btns {
     display: flex;
     gap: 5vw;
+}
+
+.btns button:hover {
+    text-decoration: underline;
 
 }
 
@@ -44,4 +44,19 @@ body{
     font-family: nombre;
     width: 4.5vw;
     color: white;
+}
+
+.cajon1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50vh;
+    font-family: nombre;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+}
+.shopBtn{
+    display: flex;
+    justify-content: center;
 }
