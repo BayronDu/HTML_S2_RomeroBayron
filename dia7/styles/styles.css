@@ -11,17 +11,17 @@ body {
     background-size: 100vw;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgb(20, 16, 16);
+    font-family: nombre;
+    color: white;
 }
 
 .menu {
     background: linear-gradient(rgb(44, 41, 41)10%, rgba(42, 36, 36, 0.671));
-    font-family: nombre;
     font-size: 1.2vw;
     font-weight: bold;
-    color: white;
     display: flex;
     gap: 30px;
-    width: 100vw;
     margin: 0;
     justify-content: space-around;
     padding: 1rem;
@@ -34,16 +34,15 @@ body {
 
 .btns button:hover {
     text-decoration: underline;
-
 }
 
 .btns button {
     background: none;
     border: 0;
     font-size: 1vw;
-    font-family: nombre;
     width: 4.5vw;
     color: white;
+    font-family: nombre;
 }
 
 .cajon1 {
@@ -52,10 +51,9 @@ body {
     justify-content: space-between;
     margin-top: 10vh;
     gap: 50vh;
-    font-family: nombre;
     text-align: center;
     font-size: 1.5vw;
-    color: white;
+
 }
 
 .shopBtn {
@@ -65,8 +63,8 @@ body {
 
 .shopBtn button {
     text-align: center;
-    font-family: nombre;
     background-color: orange;
+    font-family: nombre;
     font-weight: 600;
     padding: 0.5vw;
     width: 10vw;
@@ -78,8 +76,6 @@ body {
     justify-content: center;
     padding-top: 8vh;
     padding-bottom: 15vh;
-    background-color: rgb(20, 16, 16);
-    color: white;
     margin: 0;
 }
 
@@ -87,7 +83,6 @@ body {
     display: flex;
     padding-top: 8vh;
     align-items: center;
-    font-family: nombre;
     font-size: 3vh;
 }
 
@@ -103,8 +98,9 @@ body {
 
 .contenidoCont1 button {
     text-align: center;
-    font-family: nombre;
     background-color: orange;
+    font-family: nombre;
+    color: black;
     font-weight: 600;
     padding: 0.5vw;
     width: 10vw;
@@ -113,7 +109,6 @@ body {
 
 .contenidoCont1 {
     padding-left: 6vw;
-    font-family: nombre;
     font-size: 1.2vw;
 }
 
@@ -127,16 +122,12 @@ body {
     justify-content: center;
     padding-top: 8vh;
     padding-bottom: 15vh;
-    background-color: rgb(20, 16, 16);
-    color: white;
-    font-family: nombre;
     margin: 0;
     gap: 20vw;
 }
 
 .cajon3 h1 {
     padding-top: 8vh;
-    font-family: nombre;
     font-size: 4vh;
 }
 
@@ -148,4 +139,88 @@ body {
     padding: 0.5vw;
     width: 10vw;
     border-radius: 2vh;
+}
+.cajon4{
+    position: relative;
+    margin: 10vh;
+    height: 90vh;
+}
+.tituloCajon4{
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 15vh;
+}
+.cajon4 img{
+    top: -6vh;
+    position: absolute;
+    width:15vh;
+}
+.catalogo{
+    display: flex;
+    justify-content: space-between;
+}
+.product h3{
+    margin-top: 10vh;
+}
+.product{
+    display: flex;
+    border: 0.2vh solid orange;
+    width: 22vw;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3vh;
+}
+.product ul{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    list-style: none;
+}
+.product button{
+    margin-top: 5vh;
+    text-align: center;
+    font-family: nombre;
+    background-color: orange;
+    font-weight: 600;
+    padding: 0.5vw;
+    width: 10vw;
+    border-radius: 2vh;
+}
+.cajon4 hr{
+    margin-top: 15vh;
+    width: 70vh;
+    border-color: rgba(239, 166, 31, 0.698);
+}
+.cajaFoot{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 40vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 0.8vw;
+}
+.cajaFoot span{
+    font-size: 2vw;
+}
+.cajaFoot p{
+    margin-top: 5vh;
+    font-size: 1vw;
+}
+.color{
+    color: orange;
+    font-weight:bold;
+}
+.footDos{
+    align-items: center;
+    justify-items: center;
+    font-weight: 900;
+    padding-bottom: 2vh;
+}
+.footDos hr{
+    margin-top: 15vh;
+    width: 70vh;
+    border-color: rgba(239, 166, 31, 0.698);
 }
