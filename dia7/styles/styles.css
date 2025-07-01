@@ -8,9 +8,9 @@ body {
     width: 100vw;
     margin: 0;
     background-image: url(../Images/fondo.jpg);
-    background-attachment: fixed;
     background-size: 100vw;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menu {
@@ -50,13 +50,68 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 10vh;
     gap: 50vh;
     font-family: nombre;
     text-align: center;
     font-size: 1.5vw;
     color: white;
 }
-.shopBtn{
+
+.shopBtn {
     display: flex;
     justify-content: center;
+}
+
+.shopBtn button {
+    text-align: center;
+    font-family: nombre;
+    background-color: orange;
+    font-weight: 600;
+    padding: 0.5vw;
+    width: 10vw;
+    border-radius: 2vh;
+}
+
+.cajon2 {
+    display: flex;
+    padding-top: 8vh;
+    padding-bottom: 15vh;
+    background-color: rgb(20, 16, 16);
+    color: white;
+    margin: 0;
+}
+
+.tituloCajon2 {
+    display: flex;
+    padding-top: 8vh;
+    align-items: center;
+    font-family: nombre;
+    font-size: 3vh;
+}
+
+.tituloCajon2 hr {
+    width: 5vw;
+    margin: 1vw;
+}
+
+.parrafoCajon2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoCont1 button {
+    text-align: center;
+    font-family: nombre;
+    background-color: orange;
+    font-weight: 600;
+    padding: 0.5vw;
+    width: 10vw;
+    border-radius: 2vh;
+}
+
+.contenidoCont1 {
+    padding-left: 6vw;
+    font-family: nombre;
+    font-size: 1.2vw;
 }
