@@ -1,32 +1,61 @@
-html{
-    background-color: black;
+body {
+
 }
-.grid-container{
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 2vi;
+}
+
+.grid-container {
     display: grid;
-    margin: 4vi;
-    gap: 1vi;    
+    background-color: black;
+    justify-content: center;
+    border: 2px solid red;
+    gap: 1vi;
     grid-template-columns: auto auto;
+    border-radius: 1vi;
+    padding: 2rem;
+    width: 50vw;
+    height: 100vh;
+}   
 
-}
-.item1{
-    object-fit: fill;
-    border: 1px solid red;
-    border-radius: 4vi;
-    height: 30vi;
-    width: 40vi;
+.item1 img {
+    border-radius: 2rem;
+    height: 15vi;
+    width: 25vi;
 }
 
-.item2{
-    border: 1px solid red;
-    border-radius: 4vi;
-    height: 30vi;
-    width: 40vi;
+.item2 img {
+    height: 15vi;
+    width: 25vi;
+    border-radius: 2rem;
 }
-.item3{
+
+.item3 {
     grid-row: 1/3;
-    grid-column:2/3;
-    border: 1px solid red;
-    border-radius: 2vi;
-    height: 60vi;
-    width: 44vi;
+    grid-column: 2/3;
+}
+
+.item3 img {
+    height: 31vi;
+    width: 22vi;
+    border-radius: 2rem;
+}
+
+.item4 {
+    grid-column: 1/3;
+}
+
+.item4 img {
+    width: 48vi;
+    border-radius: 2rem;
+    height: 18vi;
 }
