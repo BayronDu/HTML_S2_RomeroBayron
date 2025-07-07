@@ -1,0 +1,56 @@
+.elemento{
+    background-color: lightblue;
+    color: white;
+    width: 20vh;
+    height: 20vh;
+    text-align: center;
+    line-height: 200px;
+    /*Duracion de la animacion*/
+    transition-delay: 2s;
+    transition-duration: 3s;
+    
+    
+}
+.elemento:hover{
+    width: 30vh;
+    height: 30vh;
+    color:black;
+    background-color: rgb(231, 28, 28);
+}
+
+a{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 50px;
+    transition: font-size 3s, background 8s;
+}
+a:hover{
+    background-color: red;
+    font-size: 30px;
+}
+.tercerEjemplo{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.tercerEjemplo:hover{
+    animation: cambiar-color 5s;
+}
+@keyframes cambiar-color{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: cadetblue;
+    }
+    75%{
+        background-color: aquamarine;
+    }
+    100%{
+        background-color: black;
+    }
+}
