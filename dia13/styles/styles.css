@@ -1,56 +1,83 @@
-.elemento{
-    background-color: lightblue;
-    color: white;
-    width: 20vh;
-    height: 20vh;
-    text-align: center;
-    line-height: 200px;
-    /*Duracion de la animacion*/
-    transition-delay: 2s;
-    transition-duration: 3s;
-    
-    
-}
-.elemento:hover{
-    width: 30vh;
-    height: 30vh;
-    color:black;
-    background-color: rgb(231, 28, 28);
-}
-
-a{
+body {
+    display: flex;
     background-color: black;
     color: white;
-    padding: 8px;
-    font-size: 50px;
-    transition: font-size 3s, background 8s;
+    text-align: center;
+    justify-content: center;
 }
-a:hover{
-    background-color: red;
-    font-size: 30px;
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../images/fondo.png);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    animation: movimiento2 8s steps(100) infinite;
 }
-.tercerEjemplo{
-    background-color: blue;
-    width: 100px;
-    height: 100px;
+
+.bernie {
+    position: absolute;
+    width: 9vw;
+    height: 32vh;
+    top: 63vh;
+    left: 40vw;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: movimiento .4s steps(1) infinite;
+
 }
-.tercerEjemplo:hover{
-    animation: cambiar-color 5s;
+
+
+.puente{
+    background-image: url(../images/puente.png);
+    background-size: contain;
+    width: 100vw;
+    height: 30vh;
+    animation: movimiento2 8s steps(100) infinite;
 }
-@keyframes cambiar-color{
-    0%{
-        background-color: blue;
+
+
+@keyframes movimiento {
+    0% {
+        background-image: url(../images/bernie1.png);
     }
-    25%{
-        background-color: blueviolet;
+
+    20% {
+        background-image: url(../images/bernie2.png)
     }
-    50%{
-        background-color: cadetblue;
+    40% {
+        background-image: url(../images/bernie3.png);
     }
-    75%{
-        background-color: aquamarine;
+
+    60% {
+        background-image: url(../images/bernie4.png)
     }
-    100%{
-        background-color: black;
+    80% {
+        background-image: url(../images/bernie5.png);
+    }
+
+    90% {
+        background-image: url(../images/bernie6.png)
+    }
+}
+
+@keyframes movimientoBernie{
+    to{
+        background-position: 0%;
+    }
+    from{
+        background-position: 10%;
+    }
+}
+
+@keyframes movimiento2{
+    to{
+        background-position: 10vh;
+    }
+    from{
+        background-position: 100vw;
     }
 }
